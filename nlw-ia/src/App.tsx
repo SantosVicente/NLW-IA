@@ -92,10 +92,6 @@ export function App() {
                   <SelectItem value="descriptionYt">Descrição do YouTube</SelectItem>
                 </SelectContent>
               </Select>
-
-              <span className="block text-xs text-muted-foreground italic">
-                Você poderá customizar esta opção em breve!
-              </span>
             </div>
 
             <div className="space-y-2">
@@ -125,6 +121,10 @@ export function App() {
                 className="w-full"
               />
             </div>
+
+            <span className="block text-xs text-muted-foreground italic">
+              Valores mais altos geram textos mais criativos, mas menos coerentes
+            </span>
 
             <Separator />
 
