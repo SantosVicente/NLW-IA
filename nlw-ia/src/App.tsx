@@ -43,7 +43,7 @@ export function App() {
     <div className="min-h-screen min-w-screen flex flex-col">
       <div className="px-6 py-3 flex items-center justify-between border-b">
         <div className="flex items-center justify-center gap-2">
-          <img src={Logo} alt="logo" className="w-10" />
+          <img src={Logo} alt="logo" width={40} height={40} />
           <h1 className="text-2xl font-bold">Upload AI</h1>
         </div>
 
