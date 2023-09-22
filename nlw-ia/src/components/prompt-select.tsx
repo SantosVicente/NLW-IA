@@ -21,12 +21,6 @@ interface PromptSelectProps {
 export function PromptSelect(props: PromptSelectProps) {
   const [prompts, setPrompts] = useState<Prompt[] | null>(null);
 
-  if (window.location.hostname === 'localhost') {
-    // Realize a operação desejada
-    console.log('A URL está apontando para localhost. Operação realizada.');
-  } else {
-    // Não realize a operação
-  }
   useEffect(() => {
     if (window.location.hostname === 'localhost') {
       api.get('/prompts').then((response) => {
